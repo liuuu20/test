@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="20966" start="node1" appversion="7.1.6" hassounds="0">
+  <panorama id="node1">
+    <input levelingpitch="0" width="2048" height="2048" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" overlap="1">
+      <level preload="0" width="2048" height="2048" predecode="0"/>
+      <level preload="0" width="1024" height="1024" predecode="0"/>
+      <level preload="0" width="512" height="512" predecode="0"/>
+      <level preload="1" width="256" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start pan="0" projection="4" tilt="0" fov="100"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" tilt="90" fov="140" fovstereographic="330" scaletofit="1"/>
+    </view>
+    <userdata nodeid="node1" author="" comment="" customnodeid="" description="" latitude="" copyright="Google" source="" title="" datetime="" info="" longitude="" heading="0" tags="Downloads"/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" width="180" height="20" textalpha="1" background="1" enabled="1" wordwrap="1" borderalpha="1" textcolor="0x000000" border="1" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="$fwd" url="{node2}" title="前進" id="Point01" pan="-358.93" skinid="ht_node" tilt="-3.88" description=""/>
+      <hotspot target="" url="images/inch.jpg" title="引擎" id="Point02" pan="-284.7" skinid="ht_image" tilt="-23.15" description=""/>
+    </hotspots>
+    <media>
+      <image roty="1.140" stretch="0.868" width="215" pan="173.520" height="225" tilt="2.860" popoutscaling="100" rotz="0.330" popbackmode="0" rotx="3.990" clickmode="0" hidepinned="0" id="Element01" fov="32.820" handcursor="0">
+        <source url="media/bridge.jpg"/>
+      </image>
+    </media>
+    <transition zoomspeed="2" delay="none" blendtime="1" zoomoutpause="1" enabled="1" zoomafteroutfov="40" zoomin="0" zoomafterinfov="140" zoomfov="40" type="crossdissolve" softedge="0" zoomout="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" zoomcentercursor="1" rubberband="0" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0" contextvr="1" invertcontrol="1" simulatemass="1" hideabout="0" lockedkeyboard="0" sensitivity="8" contextfullscreen="1" contextprojections="0" speedwheel="1" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingpitch="0" width="2048" height="2048" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" levelingroll="0" levelbiashidpi="1.000" overlap="1">
+      <level preload="0" width="2048" height="2048" predecode="0"/>
+      <level preload="0" width="1024" height="1024" predecode="0"/>
+      <level preload="0" width="512" height="512" predecode="0"/>
+      <level preload="1" width="256" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start pan="0" projection="4" tilt="0" fov="100"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" tilt="90" fov="140" fovstereographic="330" scaletofit="1"/>
+    </view>
+    <userdata nodeid="node2" author="" comment="" customnodeid="" description="" latitude="" copyright="Google" source="" title="" datetime="" info="" longitude="" heading="0" tags="Downloads"/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label bordercolor="0x000000" borderradius="1" backgroundcolor="0xffffff" width="180" height="20" textalpha="1" background="1" enabled="1" wordwrap="1" borderalpha="1" textcolor="0x000000" border="1" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="$fwd" url="{node1}" title="後退" id="Point01" pan="-180.44" skinid="ht_node" tilt="-0.13" description=""/>
+      <hotspot target="" url="images/miki.jpg" title="米奇妙妙屋" id="Point02" pan="-292.98" skinid="ht_image" tilt="-5.43" description=""/>
+    </hotspots>
+    <media>
+      <image roty="27.710" stretch="2.000" width="700" pan="-62.540" height="539" tilt="-13.150" popoutscaling="100" rotz="7.330" popbackmode="0" rotx="74.290" clickmode="0" hidepinned="0" id="Element01" fov="41.430" handcursor="0">
+        <source url="media/watercow.jpg"/>
+      </image>
+    </media>
+    <transition zoomspeed="2" delay="none" blendtime="1" zoomoutpause="1" enabled="1" zoomafteroutfov="40" zoomin="0" zoomafterinfov="140" zoomfov="40" type="crossdissolve" softedge="0" zoomout="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" zoomcentercursor="1" rubberband="0" lockedwheel="0" lockedkeyboardzoom="0" invertwheel="0" contextvr="1" invertcontrol="1" simulatemass="1" hideabout="0" lockedkeyboard="0" sensitivity="8" contextfullscreen="1" contextprojections="0" speedwheel="1" dblclickfullscreen="0"/>
+  </panorama>
+  <masternode>
+    <userdata tags="" author="" copyright="" title="" comment="" description=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
